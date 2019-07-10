@@ -2446,7 +2446,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
+		border: solid 3px gray;
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
@@ -2550,6 +2550,12 @@ input, select, textarea {
 			border-color: #e7e7e7 !important;
 			color: #b2b2b2 !important;
 			cursor: default;
+		}
+	
+		.btnContainer {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 10px;
 		}
 
 /* Work Item */
